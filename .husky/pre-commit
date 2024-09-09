@@ -1,1 +1,4 @@
-“npm run format”
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+npm run lint # example command; replace with your actual pre-commit script
