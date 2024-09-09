@@ -63,7 +63,7 @@ const Sidebar: FC<SidebarProps> = ({ session, selectedOption }) => {
             href="#" 
             icon={<Users className="h-4 w-4" />} 
             text="Customers"
-            //onClick={() => handleNavClick("Customers")}
+            onClick={() => handleNavClick("Customers")}
             bgMuted={activeItem === "Customers"}
             />}
           </nav>

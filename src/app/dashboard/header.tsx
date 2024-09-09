@@ -59,7 +59,7 @@ const UserMenu: FC<HeaderProps> = ({ session }) => (
       <DropdownMenuLabel >My Account</DropdownMenuLabel>
       <DropdownMenuSeparator />
       <DropdownMenuItem><Link href="/settings">Settings</Link></DropdownMenuItem>
-      <DropdownMenuItem>Support</DropdownMenuItem>
+      <DropdownMenuItem><Link href="/help">Help</Link></DropdownMenuItem>
       <DropdownMenuSeparator />
       <DropdownMenuItem>{session?.user ? <Link href="api/auth/signout"><Button variant="link">Sign Out</Button></Link> : <Link href="api/auth/signin"><Button variant="link">Sign In</Button></Link>}</DropdownMenuItem>
     </DropdownMenuContent>

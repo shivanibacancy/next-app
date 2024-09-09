@@ -85,7 +85,7 @@ export function DataTable<TData, TValue>({
             className="max-w-sm"
             />
 
-            <Link href="/"><Button variant="secondary" className="d-flex align-end" >Add New User</Button></Link>
+            {/* <Link href="/"><Button variant="secondary" className="d-flex align-end" >Add New User</Button></Link> */}
 
             <DropdownMenu>
                 <DropdownMenuTrigger asChild>
