@@ -76,7 +76,7 @@ export default async function Settings({}: Props) {
           </form>
         </CardContent>
         <CardFooter className="flex justify-between">
-          {session && <Link className="no-underline hover:underline text-primary-foreground" href="/">Back to Dashboard</Link>}
+          {session && <Link className="no-underline hover:underline text-primary" href="/">Back to Dashboard</Link>}
           {!session && <Link href="/"><Button variant="outline">Cancle</Button></Link>}
           {!session && <Link href="/api/auth/signin"><Button>Sign In / Register</Button></Link>}
           

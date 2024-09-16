@@ -80,7 +80,7 @@ function Products({productdata}: ProductProps) {
                         <p>${product.price}</p> 
                     </CardContent>
                     <CardFooter>
-                        <Button>Add to Cart</Button> {/* Example button */}
+                        {/* <Button>Add to Cart</Button> */}
                     </CardFooter>
                     </Card>
                 )
